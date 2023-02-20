@@ -1,0 +1,202 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.modal button {
+    outline: none;
+    border: 0;
+}
+
+.close {
+    cursor: pointer;
+}
+.modal > section {
+    width: 90%;
+    border-radius: 12px;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 420px;
+    max-height: 600px;
+    margin: 60px auto;
+    background-color: #fff;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-show 0.3s;
+    overflow: hidden;
+}
+.modal > section > header {
+    background-color: #f1f1f1;
+}
+.modal > section > header button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #999;
+    background-color: transparent;
+}
+.depositL2-ModalTopTitleSection {
+    font-size: 24px;
+    justify-content: space-between;
+    display: flex;
+    padding: 32px 36px 0;
+    padding-bottom: 32px;
+}
+.depositL2-ModalTokensTxtSection {
+    display: flex;
+    padding-left: 40px;
+    margin-top: 8px;
+}
+
+.modal > section > main {
+    padding: 16px;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+}
+
+.depositL2-ModalTokenInfoContainer {
+    padding: 16px;
+    // border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+}
+
+.depositL2-ModalTokensSearchInputSection {
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 14px;
+    /* margin: 28px 32px 16px; */
+    padding: 10px 12px;
+}
+
+.depositL2-ModalSearchIcon {
+    position: absolute;
+}
+
+.depositL2-ModalTokensSearchInput {
+    // height: 30px;
+    background-color: inherit;
+    border: none;
+    margin-left: 8px;
+    outline: none;
+    max-width: 400px;
+    width: 80%;
+}
+
+.modal.openModal {
+    display: flex;
+    align-items: center;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show 0.3s;
+}
+@keyframes modal-show {
+    from {
+        opacity: 0;
+        margin-top: -50px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+@keyframes modal-bg-show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+// ---------------------------- Scroll Box -----------------------------------//
+.depositL2-ModalTokenListSection {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    // background-color: blue;
+}
+
+.depositL2-TokenList_PickerToken {
+    // margin-left: 10px;
+    list-style: none;
+    margin: 0;
+    height: 100%;
+    // max-height: 452px;
+    overflow-y: scroll;
+    padding: 0 0 12px;
+}
+
+.depositL2-TokenList_PickerToken li {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    margin: 0 8px;
+    // padding-left: 24px;
+    padding-right: 12px;
+}
+
+.depositL2-TokenList_PickerToken li:hover {
+    cursor: pointer;
+    background-color: #21262c5d;
+    // opacity: 0.5;
+}
+
+.depositL2-TokenListTokenImgTextSection {
+    align-items: center;
+    display: flex;
+}
+
+.depositL2-TokenListTokenImgTextSection Img {
+    width: 35px;
+    height: 35px;
+}
+
+.depositL2-TokenListNameSymbolSection {
+    display: flex;
+    flex: 100%;
+}
+
+.depositL2-TokenListNameSection {
+    flex: 50%;
+    width: 140px;
+    line-height: 16px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.depositL2-TokenListNameSection h2 {
+    display: flex;
+    font-size: 15px;
+    margin: 0;
+}
+
+.depositL2-TokenListSymbolSection {
+    width: 140px;
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    // margin-left: 100px;
+}
+
+.depositL2-TokenListSymbolSection h2 {
+    display: flex;
+    font-size: 15px;
+    margin: 0;
+}

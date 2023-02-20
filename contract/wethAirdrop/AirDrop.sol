@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV2V3Interface.sol";
-import "@openzeppelin/contracts/utils/Strings.sol"; 
+import "@openzeppelin/contracts/utils/Strings.sol";
 
 /**
  * Contract which implements a merkle airdrop for a given token
@@ -33,7 +33,7 @@ contract Airdrop is Ownable, Pausable {
 
     AggregatorV2V3Interface internal baseFeed = AggregatorV2V3Interface(base);
     AggregatorV2V3Interface internal sequencerUptimeFeed = AggregatorV2V3Interface(sequencerUptimeProxy);
-    
+
     uint8 baseDecimals = baseFeed.decimals();
 
     constructor(IERC20 _token, uint8 _decimals, bytes32 _root) onlyOwner {
@@ -42,6 +42,10 @@ contract Airdrop is Ownable, Pausable {
         decimals = _decimals;
         root = _root;
         startTime = block.timestamp;
+    }
+
+    function getWhitelistClaimed() public view returns(address[] memory) {
+        return whitelistClaimed;
     }
 
     function setClaimDuration(uint256 _newDuration) public onlyOwner {
@@ -62,13 +66,10 @@ contract Airdrop is Ownable, Pausable {
     function setRoot(bytes32 _root) public onlyOwner {
         require(root != _root, "Same root");
         require(block.timestamp > (startTime + claimDuration), "claimDuration must be exceeded in order to update root");
+        address[] memory reset;
         root = _root;
         startTime = block.timestamp;
-        if(whitelistClaimed.length > 0) {
-            for(uint i =0; i < whitelistClaimed.length; i++) {
-                whitelistClaimed.pop();
-            }
-        }
+        whitelistClaimed = reset;
     }
 
     // helper for the dapp
@@ -87,7 +88,7 @@ contract Airdrop is Ownable, Pausable {
         bytes32 result = leaf(amount);
         require(MerkleProof.verify(merkleProof, root, result), "Proof is not valid");
         if(whitelistClaimed.length > 0) {
-            for(uint i =0; i < whitelistClaimed.length; i++) {
+            for(uint i = 0; i < whitelistClaimed.length; i++) {
                 if(whitelistClaimed[i] == msg.sender) {
                     checkClaimed = true;
                 }
@@ -129,7 +130,7 @@ contract Airdrop is Ownable, Pausable {
             revert GracePeriodNotOver();
         }
         (
-            , /*uint80 roundID*/ int price /*uint startedAt*/ /*uint timeStamp*/ /*uint80 answeredInRound*/, , , 
+            , /*uint80 roundID*/ int price /*uint startedAt*/ /*uint timeStamp*/ /*uint80 answeredInRound*/, , ,
         ) = baseFeed.latestRoundData();
         return price;
     }
@@ -140,18 +141,18 @@ contract Airdrop is Ownable, Pausable {
         require(block.timestamp <= (startTime + claimDuration), "Claim is not allowed after claimDuration");
         require(token.balanceOf(address(this)) >= amount, "Contract doesnt have enough tokens");
         if(whitelistClaimed.length > 0) {
-            for(uint i =0; i < whitelistClaimed.length; i++) {
+            for(uint i = 0; i < whitelistClaimed.length; i++) {
                 if(whitelistClaimed[i] == msg.sender) {
                     revert("Already Claimed");
                 }
             }
         }
-        
+
         // verify the proof is valid
         bytes32 result = leaf(amount);
         require(MerkleProof.verify(merkleProof, root, result), "Proof is not valid");
         require(!claimed(merkleProof, amount), "Address has already claimed.");
-        
+
         // Redeem!
         (, int256 answer, uint256 startedAt, , ) = sequencerUptimeFeed.latestRoundData();
         bool isSequencerUp = answer == 0;

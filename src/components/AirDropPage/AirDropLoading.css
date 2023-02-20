@@ -1,0 +1,4 @@
+.loadingContainer {
+    display: flex;
+    opacity: 0.8;
+}

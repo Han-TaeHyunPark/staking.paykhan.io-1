@@ -1,91 +1,89 @@
 /* --------------------Can't Button -------------------------- */
 
 .cant-spr-learn-more {
-  margin-top: 13px;
-  font-weight: 600;
-  width: 300px;
-  height: 50.002px;
-  font-size: 15px;
-  font-family: "SCDream8";
-  color: black;
-  cursor: not-allowed;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+    margin-top: 13px;
+    font-weight: 600;
+    width: 300px;
+    height: 50.002px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 //  ----------------------- Top Section ---------------------//
 .airDropPageContainer {
-  background-image: url(../assets/images/bg1.jpg);
-  background-repeat: no-repeat;
-  // background-color: lightyellow;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  font-family: "SCDream8";
-  // background-attachment: fixed;
-  overflow-x: hidden;
-  overflow-y: hidden;
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    // background-color: lightyellow;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: "SCDream8";
+    // background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .airDropPageLogoContainer {
-  display: flex;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .airDropPageLogoContainer a {
-  text-shadow: #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px,
-    #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px,
-    #24b5ee 0px 0px 3.998px;
-  color: #0a1126;
-  margin-left: 20.002px;
-  padding-right: 60px;
-  font-size: 60px;
+    text-shadow: #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px,
+        #24b5ee 0px 0px 3.998px;
+    color: #0a1126;
+    margin-left: 20.002px;
+    padding-right: 60px;
+    font-size: 60px;
 }
 
 .airDropLogo {
-  width: 99.998px;
-  height: 99.998px;
-  filter: drop-shadow(5.003px 9.998px 9.998px #24b5ee);
+    width: 99.998px;
+    height: 99.998px;
+    filter: drop-shadow(5.003px 9.998px 9.998px #24b5ee);
 }
 
 .airDropAllAmountContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 69.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 69.998px;
 }
 
 .airDropAmountContainer {
-  color: #72cef2;
+    color: #72cef2;
 }
 
 .airDropAmountTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .airDropAmountTitle a {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .airDropAmountTxt {
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
 }
 
 .airDropAmountNum {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .airDropAmountNum a {
-  font-size: 24.997px;
+    font-size: 24.997px;
 }
 
 // .stakedSprCanAmountSection {
@@ -101,82 +99,82 @@
 // ------------------------ Connect Wallet Btn Section ---------------------- //
 
 .connectAirDropMetaWalletSection {
-  position: absolute;
-  top: -7%;
-  right: 2%;
+    position: absolute;
+    top: -7%;
+    right: 2%;
 }
 
 .connectAirDropMetaWalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectAirDropMetaWalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // ------------------ ether --------- //
 .connectAirDropEtherWalletSection {
-  position: absolute;
-  top: -7%;
-  right: 2%;
+    position: absolute;
+    top: -7%;
+    right: 2%;
 }
 
 .connectAirDropEtherWalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectAirDropEtherWalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // ------------------ optimism ----------//
 .connectOptiComWalletSection {
-  position: absolute;
-  top: -7%;
-  right: 2%;
+    position: absolute;
+    top: -7%;
+    right: 2%;
 }
 
 .connectOptiComWalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectOptiComWalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // ------------ cant connect Wallet --------------//
 .cantConnectAirDropWalletSection {
-  position: absolute;
-  top: -7%;
-  right: 2%;
+    position: absolute;
+    top: -7%;
+    right: 2%;
 }
 
 .cantConnectAirDropWalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cantConnectAirDropWalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 $base-spacing-unit: 20.002px;
@@ -187,877 +185,971 @@ $button-height: 18px;
 $button-text-color: white;
 
 $social-list: (
-  facebook #4b70ab,
-  linkedin #0087be,
-  google #4285f4,
-  twitter #3b94d9,
-  yahoo #500095,
-  openid #f78c40,
-  googleplus #4285f4,
-  dropbox #007de1,
-  github #333,
-  bitbucket #205081,
-  soundcloud #ff5500,
-  spotify #2ebd59,
-  microsoft #00a4ef,
-  flickr #ff0084,
-  twitch #4b367c,
-  razer #44d62c
+    facebook #4b70ab,
+    linkedin #0087be,
+    google #4285f4,
+    twitter #3b94d9,
+    yahoo #500095,
+    openid #f78c40,
+    googleplus #4285f4,
+    dropbox #007de1,
+    github #333,
+    bitbucket #205081,
+    soundcloud #ff5500,
+    spotify #2ebd59,
+    microsoft #00a4ef,
+    flickr #ff0084,
+    twitch #4b367c,
+    razer #44d62c
 );
 
 %social-button,
 .social-button {
-  width: $button-width;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 9.998px;
-  border: 0 none;
-  border-radius: $border-radius-global;
-  text-decoration: none;
-  transition: all 250ms linear;
-
-  &:hover {
+    width: $button-width;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 9.998px;
+    border: 0 none;
+    border-radius: $border-radius-global;
     text-decoration: none;
-  }
+    transition: all 250ms linear;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .button--social-login {
-  margin-bottom: $half-spacing-unit;
-  margin-right: $half-spacing-unit;
-  color: $button-text-color;
-  height: $button-height;
-  line-height: $button-height - 4;
-  position: relative;
-  text-align: left;
-  display: block;
-  // width: 150px;
+    margin-bottom: $half-spacing-unit;
+    margin-right: $half-spacing-unit;
+    color: $button-text-color;
+    height: $button-height;
+    line-height: $button-height - 4;
+    position: relative;
+    text-align: left;
+    display: block;
+    // width: 150px;
 
-  .social-icon {
-    margin-right: 5.003px;
-    margin-left: 5.003px;
-    font-size: $base-spacing-unit;
-    line-height: $base-spacing-unit;
-    width: 20.002px;
-    height: $base-spacing-unit;
-    text-align: center;
-    display: inline-block;
-    // position: relative;
-    top: 3.998px;
+    .social-icon {
+        margin-right: 5.003px;
+        margin-left: 5.003px;
+        font-size: $base-spacing-unit;
+        line-height: $base-spacing-unit;
+        width: 20.002px;
+        height: $base-spacing-unit;
+        text-align: center;
+        display: inline-block;
+        // position: relative;
+        top: 3.998px;
 
-    &:before {
-      display: inline-block;
-      width: ($base-spacing-unit * 2) - ($half-spacing-unit / 2) - 2;
+        &:before {
+            display: inline-block;
+            width: ($base-spacing-unit * 2) - ($half-spacing-unit / 2) - 2;
+        }
+
+        &:after {
+            content: "";
+        }
     }
-
-    &:after {
-      content: "";
-    }
-  }
 }
 
 @each $name, $color in $social-list {
-  .button--#{$name} {
-    background-color: $color;
-    border: 0.998px solid darken($color, 10%);
+    .button--#{$name} {
+        background-color: $color;
+        border: 0.998px solid darken($color, 10%);
 
-    .social-icon {
-      border-right: 0.998px solid darken($color, 10%);
-      color: red;
+        .social-icon {
+            border-right: 0.998px solid darken($color, 10%);
+            color: red;
 
-      &:after {
-        border-right: 0.998px solid lighten($color, 10%);
-      }
+            &:after {
+                border-right: 0.998px solid lighten($color, 10%);
+            }
+        }
+
+        &:hover {
+            background-color: darken($color, 5%);
+        }
     }
-
-    &:hover {
-      background-color: darken($color, 5%);
-    }
-  }
 }
 // ------------------ ether section -------------------//@
 %social-button,
 .social-button {
-  width: $button-width;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 9.998px;
-  border: 0 none;
-  border-radius: $border-radius-global;
-  text-decoration: none;
-  transition: all 250ms linear;
-
-  &:hover {
+    width: $button-width;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 9.998px;
+    border: 0 none;
+    border-radius: $border-radius-global;
     text-decoration: none;
-  }
+    transition: all 250ms linear;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .button--social-login {
-  margin-bottom: $half-spacing-unit;
-  margin-right: $half-spacing-unit;
-  color: $button-text-color;
-  height: $button-height;
-  line-height: $button-height - 4;
-  position: relative;
-  text-align: left;
-  display: block;
-  // width: 150px;
+    margin-bottom: $half-spacing-unit;
+    margin-right: $half-spacing-unit;
+    color: $button-text-color;
+    height: $button-height;
+    line-height: $button-height - 4;
+    position: relative;
+    text-align: left;
+    display: block;
+    // width: 150px;
 
-  .social-icon {
-    margin-right: 5.003px;
-    margin-left: 5.003px;
-    font-size: $base-spacing-unit;
-    line-height: $base-spacing-unit;
-    width: 20.002px;
-    height: $base-spacing-unit;
-    text-align: center;
-    display: inline-block;
-    // position: relative;
-    top: 3.998px;
+    .social-icon {
+        margin-right: 5.003px;
+        margin-left: 5.003px;
+        font-size: $base-spacing-unit;
+        line-height: $base-spacing-unit;
+        width: 20.002px;
+        height: $base-spacing-unit;
+        text-align: center;
+        display: inline-block;
+        // position: relative;
+        top: 3.998px;
 
-    &:before {
-      display: inline-block;
-      width: ($base-spacing-unit * 2) - ($half-spacing-unit / 2) - 2;
+        &:before {
+            display: inline-block;
+            width: ($base-spacing-unit * 2) - ($half-spacing-unit / 2) - 2;
+        }
+
+        &:after {
+            content: "";
+        }
     }
-
-    &:after {
-      content: "";
-    }
-  }
 }
 
 @each $name, $color in $social-list {
-  .button--#{$name} {
-    background-color: $color;
-    border: 0.998px solid darken($color, 10%);
+    .button--#{$name} {
+        background-color: $color;
+        border: 0.998px solid darken($color, 10%);
 
-    .social-icon {
-      border-right: 0.998px solid darken($color, 10%);
-      color: red;
+        .social-icon {
+            border-right: 0.998px solid darken($color, 10%);
+            color: red;
 
-      &:after {
-        border-right: 0.998px solid lighten($color, 10%);
-      }
+            &:after {
+                border-right: 0.998px solid lighten($color, 10%);
+            }
+        }
+
+        &:hover {
+            background-color: darken($color, 5%);
+        }
     }
-
-    &:hover {
-      background-color: darken($color, 5%);
-    }
-  }
 }
 
 // ------------------------ Tab Section ---------------------- //
 
 .react-tabs__tab-list {
-  width: 60%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0.998px solid #39a2db;
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 60%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.998px solid #39a2db;
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .Tabs {
-  position: relative;
-  width: 65%;
-  // height: 100%;
-  height: auto;
-  background: rgba(255, 255, 255, 0.47);
-  margin: 2rem auto 1.5rem;
-  padding: 2rem 1rem;
-  border-radius: 2rem;
+    position: relative;
+    width: 65%;
+    // height: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.47);
+    margin: 2rem auto 1.5rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
 }
 
 .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  width: 55%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 0.998px solid rgba(255, 255, 255, 0.3);
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 55%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.998px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .react-tabs__tab {
-  width: 40%;
-  padding: 1rem;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.7s;
+    width: 40%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
 .react-tabs__tab--selected {
-  background: rgba(57, 162, 219, 0.5);
+    background: rgba(57, 162, 219, 0.5);
 }
 
 .react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+    color: GrayText;
+    cursor: default;
 }
 
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+    background: rgba(50, 224, 196, 0.15);
 }
 
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .react-tabs__tab:last-child {
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .react-tabs__tab-panel {
-  display: none;
+    display: none;
 }
 
 .react-tabs__tab-panel--selected {
-  display: block;
-  font-size: 2rem;
-  text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  width: 55%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 0.998px solid #39a2db;
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 55%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.998px solid #39a2db;
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .react-tabs__tab {
-  width: 40%;
-  padding: 1rem;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.7s;
+    width: 40%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
 .react-tabs__tab--selected {
-  background: #39a2db;
+    background: #39a2db;
 }
 
 .react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+    color: GrayText;
+    cursor: default;
 }
 
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+    background: rgba(50, 224, 196, 0.15);
 }
 
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .react-tabs__tab:last-child {
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .react-tabs__tab-panel {
-  display: none;
+    display: none;
 }
 
 .react-tabs__tab-panel--selected {
-  display: block;
-  font-size: 2rem;
-  text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  width: 60%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  //   justify-content: center;
-  justify-content: space-between;
-  border: 0.998px solid #39a2db;
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 60%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    //   justify-content: center;
+    justify-content: space-between;
+    border: 0.998px solid #39a2db;
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .react-tabs__tab {
-  width: 50%;
-  padding: 1rem;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.7s;
+    width: 50%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
 .react-tabs__tab--selected {
-  background: #39a2db;
+    background: #39a2db;
 }
 
 .react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+    color: GrayText;
+    cursor: default;
 }
 
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+    background: rgba(50, 224, 196, 0.15);
 }
 
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .react-tabs__tab:last-child {
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .react-tabs__tab-panel {
-  display: none;
+    display: none;
 }
 
 .react-tabs__tab-panel--selected {
-  display: block;
-  font-size: 2rem;
-  text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .airDropTitleContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 51px;
-  border: 1px solid #39a2db;
-  border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 51px;
+    border: 1px solid #39a2db;
+    border-radius: 2rem;
 }
 // ----------------------- DEPOSIT SECTION ----------------------- //
 
 // ----------------------- AirDrop SECTION ----------------------- //
 .airDropTabContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
 }
 .airDropTabSection {
-  width: 90%;
-  // height: 250px;
-  //   background-color: red;
+    width: 90%;
+    // height: 250px;
+    //   background-color: red;
 }
 
 // ----------------------- AirDrop WETH SECTION ----------------------- //
 
 .airDropWethSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 150px;
-  // flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    // flex-direction: column;
+}
+
+.airDropWethLoadingSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-right: 150px;
+    // height: 30px;
 }
 
 .airDropWethLogoSection {
-  display: flex;
-  // width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
+    display: flex;
+    // width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .airDropWethLogoSection img {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .airDropWethTxt {
-  font-size: 25px;
-  margin-right: 110px;
+    font-size: 25px;
+    margin-right: 110px;
 }
 
 .airDropWethBtn {
-  // display: flex;
-  // justify-content: flex-end;
-  margin-bottom: 10px;
+    // display: flex;
+    // justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
 .airDropWethTimeStampSection {
-  position: absolute;
-  display: flex;
-  font-size: 14px;
-  flex-direction: column;
-  right: 19%;
-  top: 21%;
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    right: 19%;
+    top: 21%;
 }
 
 .airDropWethTimeStampTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .airDropWethTimeStampInfo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
 }
 .airDropWethTimeStampInfo a {
-  color: #47fac2;
-  // box-shadow: #0a1126;
+    color: #47fac2;
+    // box-shadow: #0a1126;
 }
 .wethDayDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 .wethHoursDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .wethMinDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .airDropWethReFreshTimeStamp {
-  // margin-left: 5px;
-  cursor: pointer;
+    // margin-left: 5px;
+    cursor: pointer;
 }
 
 .airDropWethPriceSection {
-  position: absolute;
-  padding: 0;
-  bottom: 66%;
-  right: 58%;
+    position: absolute;
+    padding: 0;
+    bottom: 66%;
+    right: 58%;
 }
 
 .airDropWethPriceSection a {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 /* --------------------Weth Button -------------------------- */
 button.weth-learn-more {
-  margin-top: 13px;
-  width: 200px;
-  font-weight: 600;
-  font-family: "SCDream8";
-  color: black;
-  text-transform: uppercase;
-  padding: 1.25em 2em;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  transition: background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    margin-top: 13px;
+    width: 200px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 button.weth-learn-more::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-  border-radius: inherit;
-  -webkit-transform: translate3d(0, 0.75em, -1em);
-  transform: translate3d(0, 0.75em, -1em);
-  transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 button.weth-learn-more:hover {
-  background: lightgray;
-  -webkit-transform: translate(0, 0.25em);
-  transform: translate(0, 0.25em);
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
 }
 button.weth-learn-more:hover::before {
-  -webkit-transform: translate3d(0, 0.5em, -1em);
-  transform: translate3d(0, 0.5em, -1em);
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
 }
 button.weth-learn-more:active {
-  background: rgba(255, 255, 255, 0.3);
-  -webkit-transform: translate(0em, 0.75em);
-  transform: translate(0em, 0.75em);
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
 }
 button.weth-learn-more:active::before {
-  -webkit-transform: translate3d(0, 0, -1em);
-  transform: translate3d(0, 0, -1em);
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
 }
 
 /* --------------------Weth Cant Button -------------------------- */
 .cant-weth-learn-more {
-  margin-top: 13px;
-  font-weight: 600;
-  width: 200px;
-  height: 50.002px;
-  font-size: 15px;
-  font-family: "SCDream8";
-  color: black;
-  cursor: not-allowed;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+    margin-top: 13px;
+    font-weight: 600;
+    width: 200px;
+    height: 50.002px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 
 /* --------------------Weth Cant Button -------------------------- */
 .switch-weth-learn-more {
-  margin-top: 13px;
-  font-weight: 600;
-  width: 200px;
-  height: 50.002px;
-  font-size: 15px;
-  font-family: "SCDream8";
-  color: black;
-  cursor: not-allowed;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+    margin-top: 13px;
+    font-weight: 600;
+    width: 200px;
+    height: 50.002px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 
 // ----------------------- AirDrop MuciKhan SECTION ----------------------- //
-.airDropMucikhanSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-right: 150px;
+.airDropMusikhanSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 150px;
 }
 
 .airDropMusiKhanLogoSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .airDropMusiKhanLogoSection img {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
-.airDropMuciTxt {
-  font-size: 25px;
-  margin-right: 65px;
+.airDropMusiTxt {
+    font-size: 25px;
+    margin-right: 25px;
 }
 
-.airDropMuciBtn {
-  margin-bottom: 10px;
+.airDropMusiBtn {
+    // display: flex;
+    // justify-content: flex-end;
+    margin-bottom: 10px;
 }
+
 .airDropMusiTimeStampSection {
-  position: absolute;
-  display: flex;
-  font-size: 14px;
-  flex-direction: column;
-  right: 19%;
-  top: 41.5%;
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    right: 19%;
+    top: 41.5%;
 }
 
 .airDropMusiTimeStampTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .airDropMusiTimeStampInfo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
 }
 .airDropMusiTimeStampInfo a {
-  color: #47fac2;
-  // box-shadow: #0a1126;
+    color: #47fac2;
+    // box-shadow: #0a1126;
 }
+
 .musiDayDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 .musiHoursDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .musiMinDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .airDropMusiReFreshTimeStamp {
-  // margin-left: 5px;
-  // cursor: pointer;
-  cursor: not-allowed;
+    // margin-left: 5px;
+    cursor: pointer;
+    // cursor: not-allowed;
+}
+.airDropCantMusiReFreshTimeStamp {
+    // margin-left: 5px;
+    // cursor: pointer;
+    cursor: not-allowed;
 }
 
+/* -------------------- MuciKhan Select Token -------------------------- */
+.musiBeforePickerSection {
+    background-color: #fff;
+    margin-right: 10px;
+    // background-color: #39a2db;
+    // border-bottom: 1px solid;
+    // border-right: 1px solid black;
+    // border-top: 1px solid black;
+    // border-radius: 0 12px 12px 0;
+    border-radius: 0.75em;
+    margin-top: 5px;
+    display: flex;
+    font-size: 20px;
+    height: 40px;
+
+    align-items: center;
+    justify-content: center;
+    // padding: 0 16px;
+}
+.modalClickIcon {
+    color: #39a2db;
+}
+
+.musiAfterPickerSection {
+    background-color: #fff;
+    margin-right: 10px;
+    // background-color: #39a2db;
+    // border-bottom: 1px solid;
+    // border-right: 1px solid black;
+    // border-top: 1px solid black;
+    // border-radius: 0 12px 12px 0;
+    border-radius: 0.75em;
+    margin-top: 5px;
+    display: flex;
+    font-size: 20px;
+    height: 40px;
+
+    align-items: center;
+    justify-content: center;
+    // padding: 0 16px;
+}
+
+.musiAirDropBeforePicker_SelectBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: initial;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+
+    // height: 100%;
+    // width: 100%;
+    font-family: "SCDream8";
+}
+
+.musiAirDropBeforePicker_SelectBtn img {
+    // border-radius: 100px;
+    height: 30px;
+    margin-right: 12px;
+    width: 30px;
+}
+.musiAirDropAfterPicker_SelectBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: initial;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    // height: 100%;
+    // width: 100%;
+    font-family: "SCDream8";
+}
+
+.musiAirDropAfterPicker_SelectBtn img {
+    // border-radius: 100px;
+    height: 30px;
+    margin-right: 12px;
+    width: 30px;
+}
+
+// .musiPicker_SelectBtn span {
+//     font-size: 18px;
+//     margin-right: 8px;
+//     padding-bottom: 5px;
+// }
 /* -------------------- MuciKhan Button -------------------------- */
-button.muci-learn-more {
-  margin-top: 13px;
-  width: 200px;
-  font-weight: 600;
-  font-family: "SCDream8";
-  color: black;
-  text-transform: uppercase;
-  padding: 1.25em 2em;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  transition: background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+button.musi-learn-more {
+    margin-top: 13px;
+    width: 200px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
-button.muci-learn-more::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-  border-radius: inherit;
-  -webkit-transform: translate3d(0, 0.75em, -1em);
-  transform: translate3d(0, 0.75em, -1em);
-  transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+button.musi-learn-more::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
-button.muci-learn-more:hover {
-  background: lightgray;
-  -webkit-transform: translate(0, 0.25em);
-  transform: translate(0, 0.25em);
+button.musi-learn-more:hover {
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
 }
-button.muci-learn-more:hover::before {
-  -webkit-transform: translate3d(0, 0.5em, -1em);
-  transform: translate3d(0, 0.5em, -1em);
+button.musi-learn-more:hover::before {
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
 }
-button.muci-learn-more:active {
-  background: rgba(255, 255, 255, 0.3);
-  -webkit-transform: translate(0em, 0.75em);
-  transform: translate(0em, 0.75em);
+button.musi-learn-more:active {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
 }
-button.muci-learn-more:active::before {
-  -webkit-transform: translate3d(0, 0, -1em);
-  transform: translate3d(0, 0, -1em);
+button.musi-learn-more:active::before {
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
 }
 
 /* --------------------MuciKhan Cant Button -------------------------- */
-.cant-muci-learn-more {
-  margin-top: 13px;
-  font-weight: 600;
-  width: 200px;
-  height: 50.002px;
-  font-size: 15px;
-  font-family: "SCDream8";
-  color: black;
-  cursor: not-allowed;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+.cant-musi-learn-more {
+    margin-top: 13px;
+    font-weight: 600;
+    width: 200px;
+    height: 50.002px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+}
+
+/* --------------------Weth Cant Button -------------------------- */
+.switch-musi-learn-more {
+    margin-top: 13px;
+    font-weight: 600;
+    width: 200px;
+    height: 50.002px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 
 // ----------------------- AirDrop Muni SECTION ----------------------- //
 .airDropMuniSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 150px;
 }
 
 .airDropMunieLogoSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .airDropMunieLogoSection img {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .airDropMuniTxt {
-  font-size: 25px;
-  margin-right: 60px;
+    font-size: 25px;
+    margin-right: 60px;
 }
 
 .airDropMuniBtn {
-  // display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
+    // display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
 .airDropMuniTimeStampSection {
-  position: absolute;
-  display: flex;
-  font-size: 14px;
-  flex-direction: column;
-  right: 19%;
-  top: 61.5%;
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    right: 19%;
+    top: 61.5%;
 }
 
 .airDropMuniTimeStampTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .airDropMuniTimeStampInfo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
 }
 .airDropMuniTimeStampInfo a {
-  color: #47fac2;
-  // color: #47fac2;
-  // box-shadow: #0a1126;
+    color: #47fac2;
+    // color: #47fac2;
+    // box-shadow: #0a1126;
 }
 .muniDayDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 .muniHoursDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .muniMinDate {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .airDropMuniReFreshTimeStamp {
-  // margin-left: 5px;
-  cursor: not-allowed;
+    // margin-left: 5px;
+    cursor: not-allowed;
 }
 
 /* -------------------- Muni Button -------------------------- */
 button.muni-learn-more {
-  margin-top: 13px;
-  width: 200px;
-  font-weight: 600;
-  font-family: "SCDream8";
-  color: black;
-  text-transform: uppercase;
-  padding: 1.25em 2em;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  transition: background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    margin-top: 13px;
+    width: 200px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 button.muni-learn-more::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-  border-radius: inherit;
-  -webkit-transform: translate3d(0, 0.75em, -1em);
-  transform: translate3d(0, 0.75em, -1em);
-  transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 button.muni-learn-more:hover {
-  background: lightgray;
-  -webkit-transform: translate(0, 0.25em);
-  transform: translate(0, 0.25em);
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
 }
 button.muni-learn-more:hover::before {
-  -webkit-transform: translate3d(0, 0.5em, -1em);
-  transform: translate3d(0, 0.5em, -1em);
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
 }
 button.muni-learn-more:active {
-  background: rgba(255, 255, 255, 0.3);
-  -webkit-transform: translate(0em, 0.75em);
-  transform: translate(0em, 0.75em);
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
 }
 button.muni-learn-more:active::before {
-  -webkit-transform: translate3d(0, 0, -1em);
-  transform: translate3d(0, 0, -1em);
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
 }
 
 /* --------------------Muni Cant Button -------------------------- */
 .cant-muni-learn-more {
-  margin-top: 13px;
-  font-weight: 600;
-  width: 200px;
-  height: 50.002px;
-  font-size: 15px;
-  font-family: "SCDream8";
-  color: black;
-  cursor: not-allowed;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+    margin-top: 13px;
+    font-weight: 600;
+    width: 200px;
+    height: 50.002px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 
 // ----------------------- LOADING SECTION ----------------------- //
 .airDropLoadingSection {
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // ----------------------- HR SECTION ----------------------- //
 .airDropBottomLineSection {
-  position: absolute;
-  bottom: 13%;
-  width: 60%;
+    position: absolute;
+    bottom: 13%;
+    width: 60%;
 }
 
 .bottomHr {
-  border: 0.998px solid #39a2db;
+    border: 0.998px solid #39a2db;
 }
 // ----------------------- WITHDRAW SECTION ----------------------- //
 
@@ -1065,116 +1157,116 @@ button.muni-learn-more:active::before {
 
 // ----------------------- FOOTER LOGO SECTION ----------------------- //
 .logoContainer {
-  display: flex;
-  justify-content: right;
-  margin-right: 39.998px;
+    display: flex;
+    justify-content: right;
+    margin-right: 39.998px;
 }
 
 .opIcon {
-  width: 30px;
-  height: 30px;
-  margin-right: 20.002px;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 20.002px;
+    cursor: pointer;
 }
 
 .arrakisIcon {
-  width: 30px;
-  height: 30px;
-  margin-right: 20.002px;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 20.002px;
+    cursor: pointer;
 }
 
 .hanIcon {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px; /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  color: white;
-  direction: ltr;
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    color: white;
+    direction: ltr;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
 
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
 
-  /* Support for IE. */
-  font-feature-settings: "liga";
+    /* Support for IE. */
+    font-feature-settings: "liga";
 }
 
 .material-icons:hover {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .tooltip-container {
-  font-family: sans-serif;
-  margin-left: 9.998px;
-  position: relative;
-  font-size: 12.998px;
-  &:hover {
-    .tooltip-content {
-      visibility: visible;
-      font-family: sans-serif;
-      opacity: 1;
-      transition: 0.25s all ease;
-      transition-delay: 0s;
-      top: 0px;
-      // right: 200.003px;
-      width: 300px;
-      height: 100px;
-      font-size: 12.998px;
+    font-family: sans-serif;
+    margin-left: 9.998px;
+    position: relative;
+    font-size: 12.998px;
+    &:hover {
+        .tooltip-content {
+            visibility: visible;
+            font-family: sans-serif;
+            opacity: 1;
+            transition: 0.25s all ease;
+            transition-delay: 0s;
+            top: 0px;
+            // right: 200.003px;
+            width: 300px;
+            height: 100px;
+            font-size: 12.998px;
+        }
     }
-  }
 }
 .tooltip-content {
-  visibility: hidden;
-  font-family: sans-serif;
-  opacity: 0;
-  position: absolute;
-  background: #646fd4;
-  display: flex;
-  flex-direction: column;
-  left: 10%;
-  top: -129.998px;
-  // right: 99.998px;
-  // align-items: center;
-  justify-content: center;
-  padding: 0 15px;
-  margin: 15.998px;
-  font-size: 15px;
-  width: 249.997px;
-  transition: 0.25s all ease;
-  transition-delay: 0.25s;
-  z-index: 2;
-  font-size: 12.998px;
+    visibility: hidden;
+    font-family: sans-serif;
+    opacity: 0;
+    position: absolute;
+    background: #646fd4;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    top: -129.998px;
+    // right: 99.998px;
+    // align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    margin: 15.998px;
+    font-size: 15px;
+    width: 249.997px;
+    transition: 0.25s all ease;
+    transition-delay: 0.25s;
+    z-index: 2;
+    font-size: 12.998px;
 
-  color: #ffffff;
-  .align-right {
-    text-align: left;
-    a {
-      font-size: 12.998px;
+    color: #ffffff;
+    .align-right {
+        text-align: left;
+        a {
+            font-size: 12.998px;
 
-      color: yellow;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
+            color: yellow;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
-  }
-  &:after {
-  }
+    &:after {
+    }
 }
