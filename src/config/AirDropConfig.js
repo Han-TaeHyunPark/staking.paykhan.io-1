@@ -2,7 +2,7 @@ import Web3 from "web3";
 
 export const web3 = new Web3(window.ethereum);
 
-export const AirDropAddress = "0x59021b7Da4C2355994D3a4a03dD9e4415061C856";
+export const AirDropAddress = "0x8397641C2F8FF5CFB2324ceE73B9E03e2A89e6B8";
 export const AirDropABI = {
     abi: [
         {
@@ -365,6 +365,19 @@ export const AirDropABI = {
                     internalType: "int256",
                     name: "",
                     type: "int256",
+                },
+            ],
+            stateMutability: "view",
+            type: "function",
+        },
+        {
+            inputs: [],
+            name: "getWhitelistClaimed",
+            outputs: [
+                {
+                    internalType: "address[]",
+                    name: "",
+                    type: "address[]",
                 },
             ],
             stateMutability: "view",

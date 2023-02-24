@@ -7,8 +7,8 @@ import sprStakingResultReducer from "./sprStakingResultReducer";
 import sprStakingApproveReducer from "./sprStakingApproveReducer";
 import gasPriceResultReducer from "./gasPriceResultReducer";
 import getSprTokenImgVideoReducer from "./getSprTokenImgVideoReducer";
-import airDropReducer from "./airDropReducer";
-import airDropLatestPriceReducer from "./airDropLatestPriceReducer";
+import airDropReducer from "./airDropReducer/wethAirDrop/airDropReducer";
+import airDropLatestPriceReducer from "./airDropReducer/wethAirDrop/airDropLatestPriceReducer";
 import coinPriceReducer from "./coinPriceReducer";
 import networksReducer from "./networksReducer";
 import musiKhanL1TokenApproveReducer from "./musiKhanReducer/L1/musiKhanL1TokenApproveReducer";
@@ -24,6 +24,10 @@ import musiAirDropReducer from "./airDropReducer/musiAirDropReducer/musiAirDropR
 import L2SwapViewReducer from "./musiKhanReducer/L2/L2SwapViewReducer";
 import L2SwapTokenBalanceReducer from "./musiKhanReducer/L2/L2SwapTokenBalanceReducer";
 import L2SwapTokenApproveReducer from "./musiKhanReducer/L2/L2SwapTokenApproveReducer";
+import rakis6AirDropViewReducer from "./airDropReducer/rakis6AirDrop/rakis6AirDropViewReducer";
+import rakis6AirDropTimeStampReducer from "./airDropReducer/rakis6AirDrop/rakis6AirDropTimeStampReducer";
+import rakis6AirDropRewardReducer from "./airDropReducer/rakis6AirDrop/rakis6AirDropRewardReducer";
+import rakis6AirDropTotalRewardReducer from "./airDropReducer/rakis6AirDrop/rakis6AirDropTotalRewardReducer";
 
 export default combineReducers({
     stakingView: stakingViewReducer,
@@ -51,4 +55,8 @@ export default combineReducers({
     L2SwapView: L2SwapViewReducer,
     L2SwapTokenBalanceView: L2SwapTokenBalanceReducer,
     L2SwapApprove: L2SwapTokenApproveReducer,
+    rakis6AirDropView: rakis6AirDropViewReducer,
+    rakis6AirDropTimeStamp: rakis6AirDropTimeStampReducer,
+    rakis6AirDropReward: rakis6AirDropRewardReducer,
+    rakis6AirDropTotalRewardView: rakis6AirDropTotalRewardReducer,
 });

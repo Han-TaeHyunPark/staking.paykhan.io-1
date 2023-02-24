@@ -1,922 +1,910 @@
 /* --------------------Can Button -------------------------- */
 button.learn-more {
-  width: 300px;
-  font-weight: 600;
-  font-family: "SCDream8";
-  color: black;
-  text-transform: uppercase;
-  padding: 1.25em 2em;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  transition: background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    background 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    width: 300px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 button.learn-more::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-  border-radius: inherit;
-  -webkit-transform: translate3d(0, 0.75em, -1em);
-  transform: translate3d(0, 0.75em, -1em);
-  transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
-  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
-    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1),
-    -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 button.learn-more:hover {
-  background: lightgray;
-  -webkit-transform: translate(0, 0.25em);
-  transform: translate(0, 0.25em);
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
 }
 button.learn-more:hover::before {
-  -webkit-transform: translate3d(0, 0.5em, -1em);
-  transform: translate3d(0, 0.5em, -1em);
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
 }
 button.learn-more:active {
-  background: rgba(255, 255, 255, 0.3);
-  -webkit-transform: translate(0em, 0.75em);
-  transform: translate(0em, 0.75em);
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
 }
 button.learn-more:active::before {
-  -webkit-transform: translate3d(0, 0, -1em);
-  transform: translate3d(0, 0, -1em);
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
 }
 
 /* --------------------Can't Button -------------------------- */
 
 .cant-learn-more {
-  font-weight: 600;
-  width: 300px;
-  font-size: 15px;
-  font-family: "SCDream8";
-  color: black;
-  cursor: not-allowed;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+    font-weight: 600;
+    width: 300px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 
 .enter-learn-more {
-  font-weight: 600;
-  width: 300px;
-  font-family: "SCDream8";
-  color: black;
-  border: 0.104vw solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.75em;
+    font-weight: 600;
+    width: 300px;
+    font-family: "SCDream8";
+    color: black;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
 }
 
 .rewardNotClaimTxt {
-  font-size: 30px;
-  cursor: not-allowed;
+    font-size: 30px;
+    cursor: not-allowed;
 }
 
 .stakingPageContainer {
-  background-image: url(../assets/images/bg1.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  font-family: "SCDream8";
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: "SCDream8";
 }
 
 .Swal2-popup {
-  font-family: "SCDream8";
+    font-family: "SCDream8";
 }
 
 .stakingPageHanLogoContainer {
-  display: flex;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .stakingPageHanLogoContainer a {
-  text-shadow: #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px,
-    #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px,
-    #24b5ee 0px 0px 3.998px;
-  color: #0a1126;
-  margin-left: 20.002px;
-  padding-right: 60px;
-  font-size: 60px;
-  margin-top: 40px;
+    text-shadow: #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px, #24b5ee 0px 0px 3.998px,
+        #24b5ee 0px 0px 3.998px;
+    color: #0a1126;
+    margin-left: 20.002px;
+    padding-right: 60px;
+    font-size: 60px;
+    margin-top: 40px;
 }
 
 .stakingHanLogo {
-  width: 99.998px;
-  margin-top: 40px;
-  height: 99.998px;
-  filter: drop-shadow(5.003px 9.998px 9.998px #24b5ee);
+    width: 99.998px;
+    margin-top: 40px;
+    height: 99.998px;
+    filter: drop-shadow(5.003px 9.998px 9.998px #24b5ee);
 }
 
 .stakingAllAmountContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
 }
 
 .stakingAmountContainer {
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
-  color: #72cef2;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
 }
 
 .stakingAmountTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stakingAmountTitle a {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .stakingAmountNum {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stakingAmountNum p {
-  font-size: 24.997px;
+    font-size: 24.997px;
 }
 
 .stakingAprAmountContainer {
-  color: #72cef2;
+    color: #72cef2;
 }
 
 .stakingAprAmountTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stakingAprAmountTxt {
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
 }
 
 .stakingAprAmountTitle a {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .stakingAprAmountNum {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
 }
 
 .stakingAprAmountNum a {
-  font-size: 24.997px;
+    font-size: 24.997px;
 }
 
 .stakingCanAmountSection {
-  position: absolute;
-  top: -10%;
-  left: 2%;
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
-  color: #72cef2;
+    position: absolute;
+    top: -10%;
+    left: 2%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
 }
 
 .stakedCanAmountSection {
-  position: absolute;
-  top: -15%;
-  left: 2%;
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
-  color: #72cef2;
+    position: absolute;
+    top: -15%;
+    left: 2%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
 }
 
 // ------------------------ Connect Wallet Btn Section ---------------------- //
 
 .connectRakis6WalletSection {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  top: -7%;
-  right: 2%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: -7%;
+    right: 2%;
 }
 
 .cantConnetRakis6Txt {
-  border-radius: 2rem;
-  color: yellow;
-  font-size: 18px;
-  margin-right: 10px;
+    border-radius: 2rem;
+    color: yellow;
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 .connectRakis6WalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectRakis6WalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // ------------------------ Cant Connect Wallet Btn Section ---------------------- //
 
 .connectRakis6CantWalletSection {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  top: -10%;
-  right: 2%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: -10%;
+    right: 2%;
 }
 
 .cantConnetRakis6Txt {
-  border-radius: 2rem;
-  color: yellow;
-  font-size: 18px;
-  margin-right: 10px;
+    border-radius: 2rem;
+    color: yellow;
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 .connectRakis6CantWalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectRakis6CantWalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // ------------------ Optimsim --------- //
 .connectRakis6ComWalletSection {
-  position: absolute;
-  top: -7%;
-  right: 2%;
+    position: absolute;
+    top: -7%;
+    right: 2%;
 }
 
 .connectRakis6ComWalletSection a {
-  font-size: 9.998px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 9.998px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectRakis6ComWalletSection a img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connectWalletSection {
-  position: absolute;
-  top: -10%;
-  right: 2%;
-  display: flex;
+    position: absolute;
+    top: -10%;
+    right: 2%;
+    display: flex;
 }
 
 .connectWalletSection button {
-  background: #39a2db;
-  border-radius: 1rem;
-  height: 30px;
+    background: #39a2db;
+    border-radius: 1rem;
+    height: 30px;
 }
 
 .connectWalletSection button:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .connectWalletComSection {
-  position: absolute;
-  top: -10%;
-  right: 2%;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    top: -10%;
+    right: 2%;
+    display: flex;
+    align-items: center;
 }
 
 .cantWalletTxt {
-  margin-right: 10px;
-  color: red;
-  font-size: 18px;
+    margin-right: 10px;
+    color: red;
+    font-size: 18px;
 }
 
 .connectWalletComSection button {
-  background: #39a2db;
-  border-radius: 1rem;
-  height: 30px;
-  font-weight: bold;
-  color: black;
+    background: #39a2db;
+    border-radius: 1rem;
+    height: 30px;
+    font-weight: bold;
+    color: black;
 }
 
 .connectOtpImg {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .connectWalletComSection {
-  display: flex;
-  position: absolute;
-  top: -10%;
-  right: 2%;
-  height: 30px;
+    display: flex;
+    position: absolute;
+    top: -10%;
+    right: 2%;
+    height: 30px;
 }
 
 .connectWalletComSection button {
-  background: #39a2db;
-  border-radius: 1rem;
+    background: #39a2db;
+    border-radius: 1rem;
 }
 
 .Tabs {
-  position: relative;
-  width: 65%;
-  // height: 100%;
-  height: auto;
-  background: rgba(255, 255, 255, 0.47);
-  margin: 2rem auto 1.5rem;
-  padding: 2rem 1rem;
-  border-radius: 2rem;
+    position: relative;
+    width: 65%;
+    // height: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.47);
+    margin: 2rem auto 1.5rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
 }
 
 .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  width: 55%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 0.998px solid rgba(255, 255, 255, 0.3);
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 55%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.998px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .react-tabs__tab {
-  width: 40%;
-  padding: 1rem;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.7s;
+    width: 40%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
 .react-tabs__tab--selected {
-  background: rgba(57, 162, 219, 0.5);
+    background: rgba(57, 162, 219, 0.5);
 }
 
 .react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+    color: GrayText;
+    cursor: default;
 }
 
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+    background: rgba(50, 224, 196, 0.15);
 }
 
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .react-tabs__tab:last-child {
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .react-tabs__tab-panel {
-  display: none;
+    display: none;
 }
 
 .react-tabs__tab-panel--selected {
-  display: block;
-  font-size: 2rem;
-  text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  width: 55%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 0.998px solid #39a2db;
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 55%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.998px solid #39a2db;
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .react-tabs__tab {
-  width: 40%;
-  padding: 1rem;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.7s;
+    width: 40%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
 .react-tabs__tab--selected {
-  background: #39a2db;
+    background: #39a2db;
 }
 
 .react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+    color: GrayText;
+    cursor: default;
 }
 
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+    background: rgba(50, 224, 196, 0.15);
 }
 
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .react-tabs__tab:last-child {
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .react-tabs__tab-panel {
-  display: none;
+    display: none;
 }
 
 .react-tabs__tab-panel--selected {
-  display: block;
-  font-size: 2rem;
-  text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  width: 60%;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 0.998px solid #39a2db;
-  border-radius: 2rem;
-  padding-left: 0px;
+    width: 60%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.998px solid #39a2db;
+    border-radius: 2rem;
+    padding-left: 0px;
 }
 
 .react-tabs__tab {
-  width: 50%;
-  padding: 1rem;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.7s;
+    width: 50%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
 .react-tabs__tab--selected {
-  background: #39a2db;
+    background: #39a2db;
 }
 
 .react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+    color: GrayText;
+    cursor: default;
 }
 
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+    background: rgba(50, 224, 196, 0.15);
 }
 
 .react-tabs__tab:first-child {
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .react-tabs__tab:last-child {
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .react-tabs__tab-panel {
-  display: none;
+    display: none;
 }
 
 .react-tabs__tab-panel--selected {
-  display: block;
-  font-size: 2rem;
-  text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .stakingTokenBalanceSection {
-  padding-top: 9.998px;
+    padding-top: 9.998px;
 }
 
 .stakingTokenBalanceSection p {
-  font-size: 24.997px;
+    font-size: 24.997px;
 }
 
 .amountTxt {
-  font-size: 9.998px;
+    font-size: 9.998px;
 }
 
 .depositAmountSection {
-  display: flex;
-  /* background-color: yellow; */
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 39.998px;
-  padding-top: 9.998px;
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39.998px;
+    padding-top: 9.998px;
 }
 
 .depositAmountSection input {
-  width: 220.003px;
-  font-family: "SCDream8";
-  height: 50.002px;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-size: 15px;
-  border-radius: 1.5rem;
-  padding-left: 20.002px;
-  padding-right: 20.002px;
-  text-align: center;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
+    width: 220.003px;
+    font-family: "SCDream8";
+    height: 50.002px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    border-radius: 1.5rem;
+    padding-left: 20.002px;
+    padding-right: 20.002px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 .depositAmountSection input::-webkit-outer-spin-button,
 .depositAmountSection input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .depositAmountSection input:focus {
-  outline: none;
+    outline: none;
 }
 
 .depositAmountSection input::placeholder {
-  text-align: center;
-  color: black;
-  opacity: 0.5;
+    text-align: center;
+    color: black;
+    opacity: 0.5;
 }
 
 .amountMaxBtn {
-  font-family: "SCDream8";
-  background-color: transparent;
-  margin-left: 9.998px;
-  width: 60px;
-  height: 54.998px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  border-radius: 1.5em;
-  cursor: pointer;
-  /* color: #72CEF2; */
-  font-size: 20px;
-  text-shadow: #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px,
-    #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px;
-  color: #0f1b40;
+    font-family: "SCDream8";
+    background-color: transparent;
+    margin-left: 9.998px;
+    width: 60px;
+    height: 54.998px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+    /* color: #72CEF2; */
+    font-size: 20px;
+    text-shadow: #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px;
+    color: #0f1b40;
 }
 
 .depositAmountSection p {
-  font-size: 20.002px;
-  color: black;
-  margin-left: 24.997px;
+    font-size: 20.002px;
+    color: black;
+    margin-left: 24.997px;
 }
 
 .depositStakeBtnSection {
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .depositStakeBtnSection button {
-  height: 50.002px;
+    height: 50.002px;
 }
 // ------------------ Loading Section  ------------------//
 .depositLoadingAmountSection {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 269px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 269px;
 }
 
 // ------------------ Rewards  ------------------
 .allTokenRewardsContainer {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 0%);
-  width: 100vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    width: 100vh;
 }
 
 .allRewardsCumulativeSection {
-  display: flex;
-  width: 100%;
-  position: relative;
-  justify-content: center;
-  color: black;
-  padding-left: 1.3%;
-  // padding-left: 25%;
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    color: black;
+    padding-left: 1.3%;
+    // padding-left: 25%;
 }
 
 .allRewardsCumulativeSection p {
-  font-size: 20.002px;
-  margin-right: 10.002px;
+    font-size: 20.002px;
+    margin-right: 10.002px;
 }
 
 .allRefreshClaimIcon {
-  cursor: pointer;
-  margin-left: 10px;
-  margin-right: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .beforeRewardsCumulativeSection {
-  display: flex;
-  justify-content: center;
-  color: black;
+    display: flex;
+    justify-content: center;
+    color: black;
 }
 
 .beforeRewardsCumulativeSection p {
-  margin-left: 20.002px;
-  font-size: 20.002px;
+    margin-left: 20.002px;
+    font-size: 20.002px;
 }
 
 .beforeRefreshClaimIcon {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .rewardRefreshIcon {
-  color: black;
+    color: black;
 }
 
 .rewardsClaimBtnSection button {
-  height: 50.002px;
+    height: 50.002px;
 }
 
 .amountTokenRewardAccSection {
-  position: relative;
-  // width: 100vh;
-  // margin-right: -100px;
-  padding-right: 2.5%;
-  margin-bottom: 40px;
+    position: relative;
+    // width: 100vh;
+    // margin-right: -100px;
+    padding-right: 2.5%;
+    margin-bottom: 40px;
 }
 .amountTokenRewardSection p {
-  font-size: 20.002px;
+    font-size: 20.002px;
 }
 
 .amountTokenRewardAccSection P {
-  // position: relative;
-  font-size: 20px;
-  // padding-left: 20%;
+    // position: relative;
+    font-size: 20px;
+    // padding-left: 20%;
 }
 
 .amountTokenRewardTxtSection {
-  position: relative;
+    position: relative;
 }
 
 .amountTokenRewardTxtSection p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .amountTookenRewardGetBalanceTxt {
-  margin-bottom: 39.998px;
+    margin-bottom: 39.998px;
 }
 
 .rewardsClaimBtnSection {
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
 }
 
+// ------------------ Withdraw  ------------------
+
 .withdrawAmountSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 81.998px;
-  margin-bottom: 39.998px;
-  color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 81.998px;
+    margin-bottom: 39.998px;
+    color: black;
 }
 
 .withdrawAmountSection input {
-  font-family: "SCDream8";
-  width: 220.003px;
-  height: 50.002px;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-size: 15px;
-  text-align: center;
-  border-radius: 1.5rem;
-  padding-left: 20.002px;
-  padding-right: 20.002px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
+    font-family: "SCDream8";
+    width: 220.003px;
+    height: 50.002px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 1.5rem;
+    padding-left: 20.002px;
+    padding-right: 20.002px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 .withdrawAmountSection input::-webkit-outer-spin-button,
 .withdrawAmountSection input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .withdrawAmountSection input:focus {
-  outline: none;
+    outline: none;
 }
 
 .withdrawAmountSection input::placeholder {
-  text-align: center;
-  color: black;
-  opacity: 0.5;
+    text-align: center;
+    color: black;
+    opacity: 0.5;
 }
 .withdrawAmountSection p {
-  font-size: 20.002px;
-  color: black;
-  margin-left: 24.997px;
+    font-size: 20.002px;
+    color: black;
+    margin-left: 24.997px;
 }
 
 .withdrawUnstakeBtnSection {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .withdrawUnstakeBtnSection button {
-  height: 50.002px;
+    height: 50.002px;
 }
 
 .unStakeCantBtnSection {
-  margin-top: 61px;
+    margin-top: 61px;
 }
 
 .unStakeBtnSection {
-  padding-top: 61px;
+    padding-top: 61px;
 }
 
 .unStakeCantTxt {
-  font-size: 35px;
+    font-size: 35px;
 }
 
+// ---------------- FOOTER LOGO SECTION -----------//
+
 .logoContainer {
-  display: flex;
-  justify-content: right;
-  margin-right: 39.998px;
+    display: flex;
+    justify-content: right;
+    margin-right: 39.998px;
 }
 
 .opIcon {
-  width: 30px;
-  height: 30px;
-  margin-right: 20.002px;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 20.002px;
+    cursor: pointer;
 }
 
 .arrakisIcon {
-  width: 30px;
-  height: 30px;
-  margin-right: 20.002px;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 20.002px;
+    cursor: pointer;
 }
 
 .hanIcon {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px; /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  color: white;
-  direction: ltr;
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    color: white;
+    direction: ltr;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
 
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
 
-  /* Support for IE. */
-  font-feature-settings: "liga";
+    /* Support for IE. */
+    font-feature-settings: "liga";
 }
 
 .material-icons:hover {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .tooltip-container {
-  font-family: sans-serif;
-  margin-left: 10px;
-  position: relative;
-  font-size: 13px;
-  &:hover {
-    .tooltip-content {
-      visibility: visible;
-      font-family: sans-serif;
-      opacity: 1;
-      transition: 0.25s all ease;
-      transition-delay: 0s;
-      top: 0px;
-      // right: 200px;
-      width: 300px;
-      height: 150px;
-      font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    position: relative;
+    font-size: 13px;
+    &:hover {
+        .tooltip-content {
+            visibility: visible;
+            font-family: sans-serif;
+            opacity: 1;
+            transition: 0.25s all ease;
+            transition-delay: 0s;
+            top: 0px;
+            // right: 200px;
+            width: 300px;
+            height: 150px;
+            font-size: 13px;
+        }
     }
-  }
 }
 .tooltip-content {
-  visibility: hidden;
-  font-family: sans-serif;
-  opacity: 0;
-  position: absolute;
-  background: #646fd4;
-  display: flex;
-  flex-direction: column;
-  left: 10%;
-  top: -130px;
-  // right: 100px;
-  // align-items: center;
-  justify-content: center;
-  padding: 0 15px;
-  margin: 16px;
-  font-size: 15px;
-  width: 250px;
-  transition: 0.25s all ease;
-  transition-delay: 0.25s;
-  z-index: 2;
-  font-size: 13px;
+    visibility: hidden;
+    font-family: sans-serif;
+    opacity: 0;
+    position: absolute;
+    background: #646fd4;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    top: -130px;
+    // right: 100px;
+    // align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    margin: 16px;
+    font-size: 15px;
+    width: 250px;
+    transition: 0.25s all ease;
+    transition-delay: 0.25s;
+    z-index: 2;
+    font-size: 13px;
 
-  color: #ffffff;
-  .align-right {
-    text-align: left;
-    a {
-      font-size: 13px;
+    color: #ffffff;
+    .align-right {
+        text-align: left;
+        a {
+            font-size: 13px;
 
-      color: yellow;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
+            color: yellow;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
-  }
-  &:after {
-  }
+    &:after {
+    }
 }
 
 .stakingPageNewChange {
-  position: absolute;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  font-size: 15px;
-  background-color: #0f1b40;
-  color: #24b5ee;
-  font-family: "SCDream8";
-  text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
-    #0a1126 0px 0px 3.998px;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    background-color: #0f1b40;
+    color: #24b5ee;
+    font-family: "SCDream8";
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
 }
 
 .stakingPageNewChange button {
-  margin-left: 20px;
-  height: 30px;
-  border-radius: 2rem;
-  background-color: #39a2db;
-  color: 0f1b40;
-  font-family: "SCDream8";
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: #39a2db;
+    color: 0f1b40;
+    font-family: "SCDream8";
 }

@@ -173,6 +173,40 @@ const MainPage = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <div className="stakingBoxMusiSection">
+                            <div className="stakingBoxMusiLogoSection">
+                                <img src={MusiKhanLogo} />
+                            </div>
+                            <div className="stakingBoxMusiTxtSection">
+                                <p>MusiKhan tokens</p>
+                            </div>
+                            {/* <div className="tooltip-main-musi-container">
+                                <i className="info-icon material-main-musi-icons">
+                                    <HelpIcon />
+                                </i>
+                                <div className="tooltip-main-musi-content">
+                                    <p>
+                                        The right to possess digital content forever and get yourself a Sheepoori card -Ms. Caring one of three sheep siblings
+                                        characters from Sewoori Union for AdKhan: Advertising Platform
+                                        <br></br>
+                                        <a
+                                            className="align-main-musi-right"
+                                            href="https://medium.com/@HanIdentity/as-the-second-staking-of-the-hanchain-project-e29da8da25e3"
+                                            target="_blank"
+                                        >
+                                            Read More
+                                        </a>
+                                    </p>
+                                    <p className="align-main-right"> </p>
+                                </div>
+                            </div> */}
+                            <div className="stakingBoxMusiBtnSection">
+                                <a href="/musikhan" target="_blank">
+                                    GO
+                                </a>
+                            </div>
+                        </div>
                         <div className="stakingBoxSpriSection">
                             <div className="stakingBoxSpriLogoSection">
                                 <img src={SheepooriLogoBackX} />
@@ -202,39 +236,6 @@ const MainPage = () => {
                             </div>
                             <div className="stakingBoxSpriBtnSection">
                                 <a href="/spr" target="_blank">
-                                    GO
-                                </a>
-                            </div>
-                        </div>
-                        <div className="stakingBoxMusiSection">
-                            <div className="stakingBoxMusiLogoSection">
-                                <img src={MusiKhanLogo} />
-                            </div>
-                            <div className="stakingBoxMusiTxtSection">
-                                <p>MusiKhan Staking</p>
-                            </div>
-                            {/* <div className="tooltip-main-musi-container">
-                                <i className="info-icon material-main-musi-icons">
-                                    <HelpIcon />
-                                </i>
-                                <div className="tooltip-main-musi-content">
-                                    <p>
-                                        The right to possess digital content forever and get yourself a Sheepoori card -Ms. Caring one of three sheep siblings
-                                        characters from Sewoori Union for AdKhan: Advertising Platform
-                                        <br></br>
-                                        <a
-                                            className="align-main-musi-right"
-                                            href="https://medium.com/@HanIdentity/as-the-second-staking-of-the-hanchain-project-e29da8da25e3"
-                                            target="_blank"
-                                        >
-                                            Read More
-                                        </a>
-                                    </p>
-                                    <p className="align-main-right"> </p>
-                                </div>
-                            </div> */}
-                            <div className="stakingBoxMusiBtnSection">
-                                <a href="/musikhan" target="_blank">
                                     GO
                                 </a>
                             </div>

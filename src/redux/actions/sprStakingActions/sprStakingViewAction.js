@@ -72,7 +72,7 @@ function sprStakingViewAct(account) {
 
                 const stakingTokenIdImgApi = stakingTokenIdImgBack.data.data;
 
-                //  (stakingTokenIdImgApi,"")
+                // console.log(stakingTokenIdImgApi,"")
 
                 let [
                     // getTotalTokenIds,

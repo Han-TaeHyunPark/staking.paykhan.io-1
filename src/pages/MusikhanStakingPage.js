@@ -350,7 +350,7 @@ const MusikhanStakingPage = () => {
                 </div> */}
                             </div>
                             <div className="stakingSprAmountNum">
-                                <a>for each MKN per second</a>
+                                <a>for each 1MKN per second</a>
                             </div>
                         </div>
                     </div>
@@ -370,7 +370,7 @@ const MusikhanStakingPage = () => {
                                 </div>
                             </div>
                             <div className="stakingSprAmountNum">
-                                <a>for each MKN per second</a>
+                                <a>for each 1MKN per second</a>
                             </div>
                         </div>
                     </div>

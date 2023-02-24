@@ -32,7 +32,7 @@
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
 
 .airDropPageLogoContainer a {
@@ -552,8 +552,6 @@ $social-list: (
     border: 1px solid #39a2db;
     border-radius: 2rem;
 }
-// ----------------------- DEPOSIT SECTION ----------------------- //
-
 // ----------------------- AirDrop SECTION ----------------------- //
 .airDropTabContainer {
     display: flex;
@@ -617,7 +615,7 @@ $social-list: (
     font-size: 14px;
     flex-direction: column;
     right: 19%;
-    top: 21%;
+    top: 31%;
 }
 
 .airDropWethTimeStampTitle {
@@ -655,8 +653,8 @@ $social-list: (
 .airDropWethPriceSection {
     position: absolute;
     padding: 0;
-    bottom: 66%;
-    right: 58%;
+    bottom: 58%;
+    right: 57%;
 }
 
 .airDropWethPriceSection a {
@@ -782,7 +780,7 @@ button.weth-learn-more:active::before {
     font-size: 14px;
     flex-direction: column;
     right: 19%;
-    top: 41.5%;
+    top: 48.5%;
 }
 
 .airDropMusiTimeStampTitle {
@@ -1030,7 +1028,7 @@ button.musi-learn-more:active::before {
     font-size: 14px;
     flex-direction: column;
     right: 19%;
-    top: 61.5%;
+    top: 65.5%;
 }
 
 .airDropMuniTimeStampTitle {
@@ -1151,10 +1149,811 @@ button.muni-learn-more:active::before {
 .bottomHr {
     border: 0.998px solid #39a2db;
 }
+
+// ----------------------- DEPOSIT SECTION ----------------------- //
+.rakis6-AirDrop-Deposit-Quaota-Section {
+    position: absolute;
+    top: -16%;
+    // left: 2%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
+    font-size: 16px;
+}
+
+.rakis6-AirDrop-Deposit-StakeAmount-Section {
+    position: absolute;
+    top: -10%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
+    font-size: 16px;
+}
+.rakis6-AirDrop-Deposit-TokenBalanceSection {
+    padding-top: 9.998px;
+}
+
+.rakis6-AirDrop-Deposit-APR-Container {
+    position: absolute;
+    color: #72cef2;
+    left: 50%;
+    top: -30%;
+}
+
+.rakis6-AirDrop-Deposit-APR-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+}
+
+.rakis6-AirDrop-Deposit-APR-Title a {
+    font-size: 30px;
+}
+
+.rakis6-AirDrop-Deposit-APR-Info {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+}
+
+.rakis6-AirDrop-Deposit-APR-Info a {
+    font-size: 24.997px;
+}
+
+.rakis6-AirDrop-Deposit-TokenBalanceSection p {
+    font-size: 24.997px;
+}
+.rakis6-AirDrop-Deposit-StakedAmountSection {
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 9.998px;
+}
+
+.rakis6-AirDrop-Deposit-StakedAmountSection input {
+    width: 220.003px;
+    font-family: "SCDream8";
+    height: 50.002px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    border-radius: 1.5rem;
+    padding-left: 20.002px;
+    padding-right: 20.002px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.rakis6-AirDrop-Deposit-StakedAmountSection input::-webkit-outer-spin-button,
+.rakis6-AirDrop-Deposit-StakedAmountSection input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rakis6-AirDrop-Deposit-StakedAmountSection input:focus {
+    outline: none;
+}
+
+.rakis6-AirDrop-Deposit-StakedAmountSection input::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+}
+
+.rakis6-AirDrop-Deposit-StakedAmountSection p {
+    font-size: 20.002px;
+    color: black;
+    margin-left: 24.997px;
+}
+
+.rakis6-AirDrop-Deposit-AmountSection {
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39.998px;
+    padding-top: 9.998px;
+}
+
+.rakis6-AirDrop-Deposit-AmountSection input {
+    width: 220.003px;
+    font-family: "SCDream8";
+    height: 50.002px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    border-radius: 1.5rem;
+    padding-left: 20.002px;
+    padding-right: 20.002px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.rakis6-AirDrop-Deposit-AmountSection input::-webkit-outer-spin-button,
+.rakis6-AirDrop-Deposit-AmountSection input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rakis6-AirDrop-Deposit-AmountSection input:focus {
+    outline: none;
+}
+
+.rakis6-AirDrop-Deposit-AmountSection input::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+}
+
+.rakis6-AirDrop-Deposit-AmountSection p {
+    font-size: 20.002px;
+    color: black;
+    margin-left: 24.997px;
+}
+
+.rakis6-AirDrop-Deposit-AmountMaxBtn {
+    font-family: "SCDream8";
+    background-color: transparent;
+    margin-left: 9.998px;
+    width: 60px;
+    height: 54.998px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+    /* color: #72CEF2; */
+    font-size: 20px;
+    text-shadow: #39a2db 0px 0px 1px, #39a2db 0px 0px 1px, #39a2db 0px 0px 1px, #39a2db 0px 0px 1px, #39a2db 0px 0px 1px, #39a2db 0px 0px 1px;
+    // color: #0f1b40;
+}
+
+.rakis6-AirDrop-Deposit-Pswd-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rakis6-AirDrop-Deposit-Pswd-Section {
+    height: 30px;
+    width: 200px;
+    border-radius: 0.75em;
+    display: flex;
+    position: relative;
+}
+.rakis6-AirDrop-Deposit-Pswd-Lock {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    width: 30px;
+    background: #39a2db;
+    color: #fff;
+    line-height: 48px;
+    font-size: 20px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #39a2db;
+}
+.rakis6-AirDrop-Deposit-Pswd-Section input {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #39a2db;
+    padding-left: 50px;
+    font-size: 14px;
+    outline: none;
+    color: #39a2db;
+    font-family: "Poppins", sans-serif;
+}
+// input:focus {
+//     box-shadow: 0 0 15px #82e6fc, 0 0 25px #b4f0fd, 0 0 35px #ffffff;
+// }
+input::placeholder {
+    color: #a6a6a6;
+}
+.rakis6-AirDrop-Deposit-Pswd-Hide {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.rakis6-AirDrop-Deposit-Pswd-HideIcon {
+    font-size: 19px;
+    color: #39a2db;
+    cursor: pointer;
+    // display: none;
+}
+
+// fieldset {
+//     color: #555;
+//     font-family: sans-serif;
+//     border: none;
+//     position: relative;
+// }
+
+// fieldset > * {
+//     display: block;
+// }
+
+// fieldset::after {
+//     content: "___  ___  ___  ___  ___  ___";
+//     display: block;
+//     position: absolute;
+//     top: 35px;
+//     white-space: pre;
+// }
+
+// label {
+//     font-size: 14px;
+//     margin-bottom: 6px;
+// }
+
+// input#password-input {
+//     position: relative;
+//     font-size: 16px;
+//     z-index: 2;
+//     border: none;
+//     background: transparent;
+//     width: 300px;
+//     text-indent: 9px;
+//     letter-spacing: 25.6px;
+//     font-family: Courier;
+// }
+
+// input#password-input:focus {
+//     outline: none;
+// }
+
+// span.hint {
+//     margin-top: 8px;
+//     font-size: 12px;
+//     font-style: italic;
+// }
+
+// span.hint::before {
+//     content: "* ";
+// }
+
+.rakis6-AirDrop-DepositStakeBtnSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.rakis6-AirDrop-Deposit-EnterBtn {
+    font-weight: 600;
+    width: 300px;
+    font-family: "SCDream8";
+    color: black;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+}
+
+.rakis6-AirDrop-Deposit-CantBtn {
+    font-weight: 600;
+    width: 300px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+}
+
+.rakis6-AirDrop-DepositStakeBtnSection button {
+    height: 50.002px;
+}
+
+button.rakis6-AirDrop-Deposit-CanBtn {
+    width: 300px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.rakis6-AirDrop-Deposit-CanBtn::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.rakis6-AirDrop-Deposit-CanBtn:hover {
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+}
+button.rakis6-AirDrop-Deposit-CanBtn:hover::before {
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+}
+button.rakis6-AirDrop-Deposit-CanBtn:active {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+}
+button.rakis6-AirDrop-Deposit-CanBtn:active::before {
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+}
+.rakis6-AirDrop-Deposit-LoadingContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+// ----------------------- REWARDS SECTION ----------------------- //
+.rakis6-AirDrop-Reward-Container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    // width: 100vh;
+}
+
+.rakis6-AirDrop-Reward-Quaota-Section {
+    position: absolute;
+    top: -63.5%;
+    left: 0%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
+    font-size: 16px;
+}
+
+.rakis6-AirDrop-Reward-StakeAmount-Section {
+    position: absolute;
+    top: -54.5%;
+    left: 0%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
+    font-size: 16px;
+}
+
+.rakis6-AirDrop-Reward-APR-Container {
+    position: absolute;
+    color: #72cef2;
+    left: 50%;
+    top: -84.5%;
+}
+
+.rakis6-AirDrop-Reward-APR-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+}
+
+.rakis6-AirDrop-Reward-APR-Title a {
+    font-size: 30px;
+}
+
+.rakis6-AirDrop-Reward-APR-Info {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+}
+
+.rakis6-AirDrop-Reward-APR-Info a {
+    font-size: 24.997px;
+}
+
+.rakis6-AirDrop-Reward-EstSection {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    color: black;
+    padding-left: 1.3%;
+    // padding-left: 25%;
+}
+
+.rakis6-AirDrop-Reward-EstSection p {
+    font-size: 20.002px;
+    margin-right: 10.002px;
+}
+
+.rakis6-AirDrop-Reward-RefreshIcon {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rewardRefreshIcon {
+    color: black;
+}
+
+.rakis6-AirDrop-Reward-AccSection {
+    position: relative;
+    // width: 100vh;
+    // margin-right: -100px;
+    padding-right: 2.5%;
+    margin-bottom: 40px;
+}
+.rakis6-AirDrop-Reward-AccSection P {
+    // position: relative;
+    font-size: 20px;
+    // padding-left: 20%;
+}
+
+.rakis6-AirDrop-Reward-InterSection {
+    position: relative;
+}
+
+.rakis6-AirDrop-Reward-InterSection p {
+    font-size: 20px;
+}
+
+.rakis6-AirDrop-Rewards-ClaimBtnSection {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+.rakis6-AirDrop-Rewards-ClaimBtnSection button {
+    height: 50.002px;
+}
+
+button.rakis6-AirDrop-Reward-CanBtn {
+    width: 300px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.rakis6-AirDrop-Reward-CanBtn::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.rakis6-AirDrop-Reward-CanBtn:hover {
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+}
+button.rakis6-AirDrop-Reward-CanBtn:hover::before {
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+}
+button.rakis6-AirDrop-Reward-CanBtn:active {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+}
+button.rakis6-AirDrop-Reward-CanBtn:active::before {
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+}
+
+.rakis6-AirDrop-Reward-CantBtn {
+    font-weight: 600;
+    width: 300px;
+    font-size: 15px;
+    font-family: "SCDream8";
+    color: black;
+    cursor: not-allowed;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+}
 // ----------------------- WITHDRAW SECTION ----------------------- //
+.rakis6-AirDrop-Withdraw-Quaota-Section {
+    position: absolute;
+    top: -16%;
+    // left: 2%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
+    font-size: 16px;
+}
 
-// ----------------------- BRIDGE SECTION ----------------------- //
+.rakis6-AirDrop-Withdraw-StakeAmount-Section {
+    position: absolute;
+    top: -10%;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+    color: #72cef2;
+    font-size: 16px;
+}
 
+.rakis6-AirDrop-Withdraw-APR-Container {
+    position: absolute;
+    color: #72cef2;
+    left: 50%;
+    top: -30%;
+}
+
+.rakis6-AirDrop-Withdraw-APR-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+}
+
+.rakis6-AirDrop-Withdraw-APR-Title a {
+    font-size: 30px;
+}
+
+.rakis6-AirDrop-Withdraw-APR-Info {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: center;
+    text-shadow: #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px, #0a1126 0px 0px 3.998px,
+        #0a1126 0px 0px 3.998px;
+}
+
+.rakis6-AirDrop-Withdraw-APR-Info a {
+    font-size: 24.997px;
+}
+
+.rakis6-AirDrop-Withdraw-AmountSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 81.998px;
+    margin-bottom: 39.998px;
+    color: black;
+}
+
+.rakis6-AirDrop-Withdraw-AmountSection input {
+    font-family: "SCDream8";
+    width: 220.003px;
+    height: 50.002px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 1.5rem;
+    padding-left: 20.002px;
+    padding-right: 20.002px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.rakis6-AirDrop-Withdraw-AmountSection input::-webkit-outer-spin-button,
+.rakis6-AirDrop-Withdraw-AmountSection input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rakis6-AirDrop-Withdraw-AmountSection input:focus {
+    outline: none;
+}
+
+.rakis6-AirDrop-Withdraw-AmountSection input::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+}
+.rakis6-AirDrop-Withdraw-AmountSection p {
+    font-size: 20.002px;
+    color: black;
+    margin-left: 24.997px;
+    margin-right: 15px;
+}
+
+.rakis6-AirDrop-Withdraw-AmountMaxBtn {
+    font-family: "SCDream8";
+    background-color: transparent;
+    margin-left: 9.998px;
+    width: 60px;
+    height: 54.998px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+    /* color: #72CEF2; */
+    font-size: 20px;
+    text-shadow: #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px, #24b5ee 0px 0px 1px;
+    color: #0f1b40;
+}
+
+.rakis6-AirDrop-Select-Token-Btn {
+    display: flex;
+    // justify-content: flex-end;
+    background-color: #39a2db;
+    align-items: center;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    font-family: "SCDream8";
+    font-size: 15px;
+    // color: #39a2db;
+    color: black;
+    cursor: pointer;
+}
+
+.rakis6-AirDrop-Select-Token-Btn:hover {
+    opacity: 0.5;
+}
+
+.rakis6-AirDrop-Select-Token-Icon {
+    margin-left: 5px;
+    color: red;
+}
+
+.rakis6-AirDrop-WithDraw-TimeContainer {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.rakis6-AirDrop-WithDraw-TimeTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rakis6-AirDrop-WithDraw-TimeSection {
+    // margin-top: 7px;
+    font-size: 14px;
+}
+.rakis6-AirDrop-WithDraw-TimeSection a {
+    color: #47fac2;
+}
+
+.rakis6DayDate {
+    margin-right: 10px;
+}
+
+.rakis6HoursDate {
+    margin-right: 10px;
+}
+
+.rakis6MinDate {
+    margin-right: 10px;
+}
+
+.rakis6-AirDrop-WithDraw-ReFreshIcon {
+    cursor: pointer;
+}
+
+.rakis6-AirDrop-WithDraw-CantReFreshIcon {
+    cursor: not-allowed;
+}
+.rakis6-AirDrop-WithDraw-BtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.rakis6-AirDrop-WithDraw-BtnContainer button {
+    height: 50.002px;
+}
+
+.unStakeCantBtnSection {
+    margin-top: 61px;
+}
+
+.rakis6-AirDrop-Withdraw-Can-BtnSection {
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+
+.unStakeCantTxt {
+    font-size: 35px;
+}
+
+.rakis6-AirDrop-Withdraw-SelectBtn {
+    font-weight: 600;
+    width: 300px;
+    font-family: "SCDream8";
+    color: black;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    cursor: not-allowed;
+}
+
+button.rakis6-AirDrop-Withdraw-CanBtn {
+    width: 300px;
+    font-weight: 600;
+    font-family: "SCDream8";
+    color: black;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 0.104vw solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.rakis6-AirDrop-Withdraw-CanBtn::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.rakis6-AirDrop-Withdraw-CanBtn:hover {
+    background: lightgray;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+}
+button.rakis6-AirDrop-Withdraw-CanBtn:hover::before {
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+}
+button.rakis6-AirDrop-Withdraw-CanBtn:active {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+}
+button.rakis6-AirDrop-Withdraw-CanBtn:active::before {
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+}
 // ----------------------- FOOTER LOGO SECTION ----------------------- //
 .logoContainer {
     display: flex;

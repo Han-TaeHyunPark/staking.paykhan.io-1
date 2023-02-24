@@ -1,12 +1,12 @@
 import axios from "axios";
-import { AirDropAddress, AirDropContract, web3 } from "../../../config/AirDropConfig";
+import { AirDropAddress, AirDropContract, web3 } from "../../../../config/AirDropConfig";
 // import {
 //   AirDropAddress,
 //   AirDropContract,
 //   web3,
 // } from "../../../config/AirDropConfigTest";
 
-function airDropClaimedAct(account) {
+function airDropViewAct(account) {
     return async (dispatch) => {
         try {
             if (account !== "") {
@@ -18,7 +18,7 @@ function airDropClaimedAct(account) {
 
                 const getProofAmountToBack = await axios({
                     method: "POST", // [요청 타입]
-                    url: `http://15.165.255.173:3000/degree/changeAddress`, // [요청 주소]
+                    url: `https://admin.paykhan.io:3000/degree/changeAddress`, // [요청 주소]
                     data: JSON.stringify(backData), // [요청 데이터]
                     headers: {
                         "Content-Type": "application/json; charset=utf-8",
@@ -28,16 +28,22 @@ function airDropClaimedAct(account) {
 
                 await setTimeout(0);
 
-                const claimedApi = await AirDropContract.methods
-                    .claimed(getProofAmountToBack.data.proof, getProofAmountToBack.data.eth_amount)
+                const canClaimApi = await AirDropContract.methods
+                    .canClaim(getProofAmountToBack.data.proof, getProofAmountToBack.data.eth_amount)
                     .call({ from: account });
 
-                let [claimed] = await Promise.all([claimedApi]);
+                const getProofToBackApi = getProofAmountToBack.data.proof;
+
+                const getAmountToBackApi = getProofAmountToBack.data.eth_amount;
+
+                let [canClaim, getProofToBack, getAmountToBack] = await Promise.all([canClaimApi, getProofToBackApi, getAmountToBackApi]);
 
                 dispatch({
-                    type: "GET_AIRDROP_CLAIMED_SUCCESS",
+                    type: "GET_AIRDROP_VIEW_SUCCESS",
                     payload: {
-                        claimed: claimed,
+                        canClaim: canClaim,
+                        getProofToBack: getProofToBack,
+                        getAmountToBack: getAmountToBack,
                     },
                 });
             }
@@ -47,4 +53,4 @@ function airDropClaimedAct(account) {
     };
 }
 
-export const airDropClaimedAction = { airDropClaimedAct };
+export const airDropViewAction = { airDropViewAct };

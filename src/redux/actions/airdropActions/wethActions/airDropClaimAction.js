@@ -1,4 +1,4 @@
-import { AirDropAddress, AirDropContract, web3 } from "../../../config/AirDropConfig";
+import { AirDropAddress, AirDropContract, web3 } from "../../../../config/AirDropConfig";
 // import {
 //   AirDropAddress,
 //   AirDropContract,
